@@ -1,0 +1,273 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+% 
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Anmol Singh}{Sethi}{
+\href{mailto:dd367@cornell.edu}{anmolsinghsethi@yahoo.com} | +91 7009081436
+}
+
+\href{http://linkedin.com/in/anmol-singh-seethi}{http://linkedin.com/in/anmol-singh-sethi}
+
+\begin{center}
+% \huge\color{subheadings}\custombold{Bachelor of Technology in Information Technology}
+\end{center}
+
+\section{Education}
+
+\runsubsection{Indian Institute of Information Technology, Allahabad}
+\descript{|B.Tech in Information Technology}
+\location{2016-2020(expected) | Allahabad, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Conc. in Information Technology.
+\item Cum. GPA: 8.47 / 10
+\end{tightemize}
+\sectionsep
+
+\runsubsection{The Senior Study II, Amritsar (CBSE)}
+\descript{| Class XII}
+\location{2015-2016 | Amritsar, India}
+\begin{tightemize}
+\item Percentage 95.8
+\end{tightemize}
+\sectionsep
+
+\runsubsection{The Senior Study II, Amritsar (CBSE)}
+\descript{| Class X}
+\location{2013 – 2014 | Amritsar, India}
+\begin{tightemize}
+\item Cum. GPA 10/10
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Joint Entrance Examination}
+\descript{| Mains}
+\location{2016 | Amritsar, India}
+\begin{tightemize}
+\item Marks- 183/360
+\item All India Rank 5335
+\end{tightemize}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Comparitive Study of Text-Classification Algorithms}
+\descript{| Mini Project Under Prof. O.P. Vyas }
+\location{August 2018 – Ongoing | Allahabad, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Comparison of various Machine Learning, Deep Learning Algorithms.
+\item Compared Naive Bayes, Support Vector Machines, K Means Clustering, K-Nearest Neighbors, Convolution Neural Networks, etc.
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{E-Voting Portal}
+\descript{| Database Management Project Under Dr. Ranjana Vyas }
+\location{January 2018 – May 2018 | Allahabad, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Database connectivity using Flask and Database Management using MySQL.
+\item Secure login and passwords using SHA script.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Java based Game Application}
+\descript{|Object Oriented Project Under Dr. Ranjana Vyas}
+\location{Sept 2017 - Dec 2017 | Allahabad, India}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Java-Swing based Tic-Tac-Toe game.
+\item Enabled Easy and Hard Modes in game with different Algorithms.
+\item All code was reviewed and perfected.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Emotify}
+\descript{| Project built during IIITA Hackathon}
+\location{October 2017 | Allahabad, India}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Voice Recognition based Chrome Extension that suggests songs based on the users mood.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Redesign of Make-My-Trip Application}
+\descript{| GeekHaven Summer Project, Design Wing}
+\location{May- 2017 - July 2017 | Allahabad, India}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Figured out Heuristic Problems in the existing Make My Trip Android Application and redesigned it from the scratch to solve the existing problems.
+\item All the UI developed in Adobe Photo-shop and Adobe Illustrator.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Student Saathi}
+\descript{| Summer Project}
+\location{May- 2017 - July 2017 | Allahabad, India}
+\vspace{\topsep} 
+\begin{tightemize}
+\item Java Swing based application to exchange Notes between students.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CourseWork
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Relevant Coursework}
+\subsection{Undergraduate}
+Introduction to Programming \\
+Data Structures \\
+Artificial Intelligence\\
+Design and Analysis of Data Algorithms \\
+Computer Organization and Architecture \\
+Operating Systems \\
+Theory of Computation \\
+Object Oriented Methodologies \\
+Database Management \\
+Principles of Programming Languages \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CourseWork
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages}
+\begin{minipage}[t]{.6\textwidth}
+\subsection{Programming}
+Java \textbullet{}   Shell \textbullet{}  Matlab \\
+C/C++ \textbullet{} Python \textbullet{} Prolog \textbullet{} \LaTeX\ \\ 
+\subsection{Web}
+HTML \textbullet{}   CSS \textbullet{} JavaScript \\
+Flask \\
+\subsection{Utilities}
+Linux Shell \textbullet{} Git \textbullet{} Vim\\
+\sectionsep
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.35\textwidth}
+\subsection{UI/UX}
+Wire Framing \textbullet{} User Research \textbullet{} Information Architecture\\
+\subsection{Spoken \& Written}
+\location{Fluency:} English, Hindi, Punjabi\\
+\end{minipage}
+
+\section{Position of Responsibility} 
+\begin{tabular}{rll}
+\vspace{\topsep} 
+2018- Present w & Executive Editor &IIIT Allahabad Newsletter  \\
+\vspace{\topsep} 
+2018-2019     &Special Point of Contact & Sarasva, Literary Society,IIIT Allahabad  \\
+\vspace{\topsep} 
+2017-2018     & Technical Mentor & Freshmen Students  \\
+\vspace{\topsep} 
+2017-2018     & Executive Member & Organizing Committee, TEDx IIIT Allahabad  \\
+\vspace{\topsep} 
+2016-2017	     & Council Member  & Sarasva, Literary Society, IIIT Allahabad\\
+\vspace{\topsep} 
+2016-2017	     & 2\textsuperscript{nd} Council Member  & Design Wing, Technical Society, IIIT Allahabad\\
+\vspace{\topsep} 
+2016-2017	     &Executive Member  & Effervescence, The Cultural Festival, IIITA\\
+\vspace{\topsep} 
+2016-2017	     & USG Delegate Welfare  & Model United Nations, IIIT Allahabad\\
+\vspace{\topsep} 
+Oct. 2017     & Event Organizer & Feathers-Online Writing Competition \\
+
+\end{tabular}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Extracurricular Activity} 
+
+\begin{tabular}{rll}
+\vspace{\topsep} 
+2017 	& Participant    & IIITA Hackathon\\
+\vspace{\topsep} 
+2016   & Delegate of Finland   & IIITA Model United Nations\\
+\vspace{\topsep}
+2017   &  Technical Volunteer  & Aparoksha(Technical Fest), IIIT Allahabad\\
+\vspace{\topsep}
+2016   &  Volunteer   & Prayaas- Teach the underprivileged\\
+\vspace{\topsep}
+2011 	& State Rank 1    & Mathematics Olympiad, EduHeal Foundation\\
+\vspace{\topsep}
+2011   & State Rank 3  & Science Olympiad, EduHeal Foundation\\
+\vspace{\topsep}
+2011   &  First Prize  & ISKCON Debate\\\end{tabular}
+\sectionsep
+
+
+\end{document}  \documentclass[]{article}
